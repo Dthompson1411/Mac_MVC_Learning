@@ -6,9 +6,11 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
+
   </ItemGroup>
 
   <ItemGroup>
     <Compile Remove="Controllers\test.cs" />
+    <Compile Remove="Models\store.cs" />
   </ItemGroup>
 </Project>
